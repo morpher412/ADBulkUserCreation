@@ -3,7 +3,6 @@ $Users=Import-csv "C:\UserImport\BulkUserImport.TEST.csv"
 $a=1;
 $b=1;
 $failedUsers = @()
-$usersAlreadyExist =@()
 $successUsers = @()
 $VerbosePreference = "Continue"
 $LogFolder = "C:\UserImport\log"
@@ -11,8 +10,6 @@ $LogFolder = "C:\UserImport\log"
 
 ForEach($User in $Users)
 {
-   $FirstName = $User.FirstName.substring(0,1).toupper()+$User.FirstName.substring(1).tolower()
-   $LastName  = $User.LastName.substring(0,1).toupper()+$User.LastName.substring(1).tolower()
    $FullName = $User.FirstName + " " + $User.LastName
         for ($i = 1; $i -le $user.FirstName.Length; $i++) {
                 $SAM = $user.FirstName.Substring(0,$i) + $user.LastName #example John snow will be Jsnow
