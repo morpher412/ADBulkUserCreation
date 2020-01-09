@@ -1,12 +1,5 @@
 ﻿$Users=Import-csv "C:\UserImport\BulkUserImport.TEST.csv"
-$a=1;
-$b=1;
-$failedUsers = @()
-$usersAlreadyExist =@()
-$successUsers = @()
 $VerbosePreference = "Continue"
-$LogFolder = "C:\UserImport\log"
-
 
 ForEach($User in $Users)
 {
