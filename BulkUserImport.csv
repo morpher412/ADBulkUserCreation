@@ -1,3 +1,6 @@
-FirstName,LastName,password,jobtitle,Office
-Bob,Villa,Gwcu!01046745,Contact Center Representative,Contact Center
-Brad,Villa,Gwcu!01043428,Teller,Layton
+FirstName,LastName,password,jobtitle,Office,username
+Kambri,Jeffers,Gwcu!01226343,Intern,Accounting,kjeffers
+Samuel,Johnson,Gwcu!01225605,Intern,Contact Center,sjohnson
+Camille,Hunter,Gwcu!01227375,Intern,Fraud,chunter
+Mario,Rivero,Gwcu!01225070,Intern,Contact Center,mrivero
+Cody,Butterfield,Gwcu!01222352,Intern,Contact Center,cbutterfield
