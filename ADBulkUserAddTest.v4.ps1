@@ -1,11 +1,11 @@
 ﻿Import-module activedirectory
-$Users=Import-csv "C:\UserImport\BulkUserImport.TEST.csv"
+$Users=Import-csv "C:\Scripts\UserImport\BulkUserImport.TEST.csv"
 $a=1;
 $b=1;
 $failedUsers = @()
 $successUsers = @()
 $VerbosePreference = "Continue"
-$LogFolder = "C:\UserImport\log"
+$LogFolder = "C:\Scripts\UserImport\log"
 
 
 ForEach($User in $Users)
