@@ -1,4 +1,4 @@
-﻿$Users=Import-csv "C:\UserImport\BulkUserImport.csv"
+﻿$Users=Import-csv "C:\Scripts\UserImport\BulkUserImport.csv"
 $VerbosePreference = "Continue"
 
 ForEach($User in $Users)
